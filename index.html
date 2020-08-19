@@ -1,0 +1,29 @@
+<html>
+   <head>
+      <title>JavaScript Boolean Object - Methods</title>
+   </head>   
+   <body>   
+      <script type = "text/javascript">
+        document.write("JavaScript Boolean Object - Methods");
+        function book(title, publisher, price) {
+            this.title = title;
+            this.publisher = publisher;
+            this.price = price;
+         }         
+         var newBook = new book("Perl","Leo Inc",200); 
+         document.write(newBook.toSource()); 
+          
+         document.write("<br />");
+         document.write("<br />");
+          
+         var flag = new Boolean(false); 
+         document.write( "flag.toString is : " + flag.toString() );
+          
+         document.write("<br />");
+         document.write("<br />");
+          
+         var flag = new Boolean(false); 
+         document.write( "flag.valueOf is : " + flag.valueOf() );
+      </script>      
+   </body>
+</html>
